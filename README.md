@@ -5,7 +5,7 @@ Mit der "Feedback Box"-Aktivität können Sie von Ihren Studierenden Feedback zu
 
 ```bash
 cd blocks/
-git clone git@dev.sudile.com:moodle/moodle-block_feedbackbox.git feedbackbox
+git clone https://github.com/sudile/moodle-block_feedbackbox.git feedbackbox
 ```
 
 # Credits
