@@ -39,12 +39,14 @@ class block_feedbackbox extends block_base {
     }
 
     private function find_feedbackbox() {
-        GLOBAL $CFG, $DB, $COURSE; // Required by include once.
-        $feedbackboxs = $DB->get_records('feedbackbox', ['course' => $COURSE->id], 'id DESC');
-        if (count($feedbackboxs) > 0) {
-            $feedbackbox = end($feedbackboxs);
-            $cousem = get_coursemodule_from_instance("feedbackbox", $feedbackbox->id, $feedbackbox->course);
-            return new feedbackbox(0, $feedbackbox, $COURSE, $cousem);
+        global $CFG, $DB, $COURSE; // Required by include once.
+        $feedbackboxs = array_reverse($DB->get_records('feedbackbox', ['course' => $COURSE->id], 'id DESC'));
+        foreach ($feedbackboxs as $feedbackbox) {
+            $cm = get_coursemodule_from_instance("feedbackbox", $feedbackbox->id, $feedbackbox->course);
+            if ($cm->deletioninprogress != 0) {
+                continue;
+            }
+            return new feedbackbox(0, $feedbackbox, $COURSE, $cm);
         }
         return false;
     }

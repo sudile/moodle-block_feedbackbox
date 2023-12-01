@@ -1,11 +1,7 @@
 # Block Feedback Box
 Mit der "Feedback Box"-Aktivität können Sie von Ihren Studierenden Feedback zu Ihren Lehrveranstaltungen erhalten. Dieses Repository ist der Block für die Aktivität "Feedback Box" (https://github.com/sudile/moodle-mod_feedbackbox), die auch Voraussetzung für diesen Block ist.
 
-# Hinweis zur Auswertung
-Auf Grund der Anonymität werden Ergebnisse erst angezeigt, wenn mindestens drei Personen pro Runde ein Feedback abgegeben haben, damit es nicht über die Einloggzeiten nachverfolgbar ist.
-
-# Voraussetzung
-Moodle 3.9+
+Voraussetzung: Moodle 3.9+
 
 # Installation
 
@@ -16,28 +12,28 @@ git clone https://github.com/sudile/moodle-block_feedbackbox.git feedbackbox
 
 # Credits
 
-Die Feedback-Box ist ein Kooperationsprojekt der Fachhochschule Potsdam (FHP) und Brandenburgischen Technischen Universität (BTU) und wurde gefördert durch das Ministerium für Wissenschaft, Forschung und Kultur des Landes Brandenburg (MWFK).
+Die Feedback-Box ist ein Kooperationsprojekt der Fachhochschule Potsdam (FHP) und Brandenburgischen Technischen Universität (BTU) und wurde gefördert durch das Ministerium für Wissenschaft, Forschung und Kultur des Landes Brandenburg (MWFK).  
 
 **Projektträgerin**
-
+  
 Fachhochschule Potsdam  
 ZEDI - Zentrale Einrichtung Digitale Lehre  
 Kiepenheuerallee 5  
 14469 Potsdam  
 Mail: zedi-helpdesk@fh-potsdam.de  
-Webseite: [https://feedbackbox.fh-potsdam.de](https://feedbackbox.fh-potsdam.de)
+Webseite: [https://feedbackbox.fh-potsdam.de](https://feedbackbox.fh-potsdam.de)  
 
-**Projektentwicklung**
+**Projektentwicklung**  
 
-**Projektleitung und Fachliche Entwicklung:** Julia Lee (FHP); Tobias Falke (BTU)
+**Projektleitung und Fachliche Entwicklung:** Julia Lee (FHP); Tobias Falke (BTU)  
 
-**Design und Instructional Design:** Natalie Schreiber (FHP); Nikolas Ripka (FHP)
+**Design und Instructional Design:** Natalie Schreiber (FHP); Nikolas Ripka (FHP)  
 
-**Technische Beratung:** Tobias Kutzner (BTU)
+**Technische Beratung:** Tobias Kutzner (BTU)  
 
-**Projektkoordination:** Julia Ullrich (FHP)
+**Projektkoordination:** Julia Ullrich (FHP)  
 
-**Technische Entwicklung:** Sudile GbR ([https://www.sudile.com](https://www.sudile.com))
+**Technische Entwicklung:** Sudile GbR ([https://www.sudile.com](https://www.sudile.com))  
 
 Die Feedback-Box kann frei genutzt werden unter folgenden Lizenzen und Benennungen:
 
