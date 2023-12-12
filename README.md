@@ -1,6 +1,7 @@
 # Block Feedback Box
 Mit der "Feedback Box"-Aktivität können Sie von Ihren Studierenden Feedback zu Ihren Lehrveranstaltungen erhalten. Dieses Repository ist der Block für die Aktivität "Feedback Box" (https://github.com/sudile/moodle-mod_feedbackbox), die auch Voraussetzung für diesen Block ist.
 
+
 # Hinweis zur Auswertung
 Auf Grund der Anonymität werden Ergebnisse erst angezeigt, wenn mindestens drei Personen pro Runde ein Feedback abgegeben haben, damit es nicht über die Einloggzeiten nachverfolgbar ist.
 

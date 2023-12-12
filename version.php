@@ -26,7 +26,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2020061501;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 2023121200;        // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2020060900;        // Requires this Moodle version
 $plugin->component = 'block_feedbackbox';      // Full name of the plugin (used for diagnostics)
+$plugin->release = '1.0.1 (Build - 2023121200)';
 $plugin->dependencies = array('mod_feedbackbox' => ANY_VERSION);
